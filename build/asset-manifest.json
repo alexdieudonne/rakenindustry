@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e562d4b0.chunk.css",
+    "main.js": "/static/js/main.a1538081.chunk.js",
+    "main.js.map": "/static/js/main.a1538081.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ad2df182.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ad2df182.js.map",
+    "static/css/2.3723fc6f.chunk.css": "/static/css/2.3723fc6f.chunk.css",
+    "static/js/2.897ee857.chunk.js": "/static/js/2.897ee857.chunk.js",
+    "static/js/2.897ee857.chunk.js.map": "/static/js/2.897ee857.chunk.js.map",
+    "static/js/3.bdb228cc.chunk.js": "/static/js/3.bdb228cc.chunk.js",
+    "static/js/3.bdb228cc.chunk.js.map": "/static/js/3.bdb228cc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.3723fc6f.chunk.css.map": "/static/css/2.3723fc6f.chunk.css.map",
+    "static/css/main.e562d4b0.chunk.css.map": "/static/css/main.e562d4b0.chunk.css.map",
+    "static/js/2.897ee857.chunk.js.LICENSE.txt": "/static/js/2.897ee857.chunk.js.LICENSE.txt",
+    "static/media/TeaserCollectionHiver_Raken_Finale_720p.2930447f.mov": "/static/media/TeaserCollectionHiver_Raken_Finale_720p.2930447f.mov",
+    "static/media/avatar_white.cdf7fbc6.png": "/static/media/avatar_white.cdf7fbc6.png",
+    "static/media/empty.ffdad94d.svg": "/static/media/empty.ffdad94d.svg",
+    "static/media/logo_raken.826ee6c9.png": "/static/media/logo_raken.826ee6c9.png",
+    "static/media/logo_raken_white_version.67e0a6d2.png": "/static/media/logo_raken_white_version.67e0a6d2.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad2df182.js",
+    "static/css/2.3723fc6f.chunk.css",
+    "static/js/2.897ee857.chunk.js",
+    "static/css/main.e562d4b0.chunk.css",
+    "static/js/main.a1538081.chunk.js"
+  ]
+}
