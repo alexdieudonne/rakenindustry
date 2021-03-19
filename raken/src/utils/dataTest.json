@@ -1,0 +1,20 @@
+[{
+    "_id": 1,
+    "name_item": "Robe MAEVA",
+    "pictures": "https://www.recc-paris.com/1091-superlarge_default/robe-cecilia.jpg",
+    "price_item": 23,
+    "size_item": "S",
+    "colour_item": "Rose",
+    "nbr_item": 1,
+    "date":"02/12/12"
+  }, {
+    "_id": 2,
+    "name_item": "Robe Poulet",
+    "pictures": "https://www.recc-paris.com/1091-superlarge_default/robe-cecilia.jpg",
+    "price_item": 40.56,
+    "colour_item": "Noir",
+    "size_item": "X",
+    "nbr_item": 2,
+    "date":"02/12/12"
+  }
+]

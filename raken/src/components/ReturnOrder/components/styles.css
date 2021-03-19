@@ -1,0 +1,83 @@
+@media (max-width: 484px){
+ .return-form > .wrap-login100 { width: 100%; } 
+ .return-form > .card-body { padding: 1em 0 !important; } 
+ .limiter .container-login100 { 
+     padding: 0; 
+    } 
+ }
+
+ .limiter .input100 {
+    display: block;
+    padding: 10px 25px 10px 25px;
+    /* height:Auto!important; */
+    max-height: 23rem;
+}
+
+.button-return > button{
+    background-color: dimgrey;
+    padding: .5rem 1rem !important;
+}
+
+@media screen and (max-width: 767px)
+{
+    .login100-form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .waves-effect{
+        /*@ts-ignore*/
+        justify-content: left   ;
+    }
+    
+    .waves-effect > img{
+        max-width: 10rem;
+    }
+
+}
+
+
+
+.right-side-return-card{
+    margin-left:20px
+}
+
+.right-side-return-card  p{
+    text-align: left;
+}
+
+.demand-sent{
+    font-weight: bold;
+}
+
+.form-content-commandes  h3, .form-content-commandes  h5{
+    font-weight: bold;
+}
+
+.limiter .txt-retour {
+    font-size: 1.2em;
+    color: #555555;
+    line-height: 1.4;
+    /* text-transform: uppercase; */
+}
+
+.image-right-return-card{
+    max-width: 5rem;
+}
+
+.all-item{
+    margin-bottom: 1rem;
+}
+
+.checkbox-choose-return{
+    border: 1px solid !important;
+    width:2px !important;
+    height:1em !important;
+    padding:8px
+}
+
+.form-check-input:checked{
+    background-color: #a3a3a3;
+    border-color: #a3a3a3;
+    border:0px
+}

@@ -1,0 +1,197 @@
+@import 'https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet';
+
+.title-Accordion{
+    background-color: transparent;
+    cursor: pointer;
+    padding: 20px 30px;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.title-Accordion1{
+    border-top: 0px;
+}
+
+
+.title-Accordion span, .widget-title{
+    font-weight: 900;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif !important;
+ 
+    letter-spacing: 1px;
+    text-transform: uppercase;  
+    color:black
+}
+
+.accordion{
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.body-accordion{
+    padding: 0rem 1rem 2rem 1rem;
+    /* border-bottom: 1px solid rgba(0,0,0,.125); */
+}
+
+.accordion .card-header{
+        border-bottom: 0px !important;
+        border-radius: 0 !important;
+}
+
+.icon-accordion{
+    font-size: 13px;
+}
+
+.list-unstyled{
+    padding-left: 2rem;
+}
+
+.two-side-container a  {
+    font-size: 14px;  
+    transition: .2s all ease-in-out;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.prod-sidebar .widget-content li, .prod-sidebar .widget-content li {
+    display: inline-block;
+    padding: 10px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.prod-sidebar .widget-title, .prod-sidebar li, .prod-sidebar .panel li, .prod-sidebar .widget-heading, .prod-sidebar .widget-content .recent-wrap {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.prod-sidebar li > a {
+    display: inline-block;
+    font-size: 13px;
+    width: 100%;
+    position: relative;
+}
+
+
+.two-side-container a:hover {
+    color:rgba(0,0,0,.355);
+    transition: .2s all ease-in-out;
+}
+
+/* right sight page */
+
+.prod-sidebar{
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.prod-sidebar .widget-title {
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+
+.prod-sidebar .widget-content ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    /* padding-top: 20px; */
+    list-style: none;
+}
+
+.two-side-container{
+    /* flex-wrap: wrap; */
+    padding:2rem
+    
+}
+
+/* left side page */
+.informations-page{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header-account{
+    justify-content: space-between;
+    display: flex;
+    padding: 1.5rem;
+    width: 90%;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.prod-sidebar .widget-content ul li {
+    padding:5px 0px
+}
+
+@media (max-width: 576px) {
+    /* .two-side-container{
+        flex-wrap: wrap;
+        
+    } */
+    .account-body > ul{
+        padding-left: 0;
+    }
+
+    .header-account{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 884px) {
+    .two-side-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: .6rem;
+    }
+
+    .prod-sidebar{
+        display: none;
+    }
+
+}
+
+.status-display{
+    display: none;
+}
+
+@media screen and (max-width: 379px)
+{
+    .card-title .product-title-div .product-name{
+        text-align: left !important;
+    }
+
+    .status-display{
+        display: inherit;
+    }
+
+    .quantit span{
+        display: none;
+    }
+
+    .card-title  p{
+        text-align: left !important;
+    }
+
+    .welcome {
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    .content p {
+        font-size: 0.6em;
+    }
+
+    .buttons .btn{
+        cursor: pointer;
+        font-size: 12px;
+        max-width: 142px;
+        padding: 0px 0px;
+    }
+}
+

@@ -1,0 +1,65 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery {
+  /* max-width: 66vw; */
+  min-width: 19rem;
+
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  /* max-height: calc(70vh - 80px); */
+  max-height: 100% !important;
+}
+
+.image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right {
+  margin: 0 3px;
+}
+
+.image-gallery-slide-wrapper.left, .image-gallery-slide-wrapper.right {
+  display: inline-block;
+  /* width: 63%; */
+}
+
+.image-gallery-slide .image-gallery-image {
+  width: 100%;
+  object-fit: fill;
+}
+
+.image-gallery-slide-wrapper.image-gallery-rtl {
+  direction: rtl;
+  /* margin-left: 7rem; */
+}
+
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail:focus {
+  outline: none;
+  border: 2px solid #337ab7;
+}
+
+/* .image-gallery-image:hover {
+
+
+  transform: scale(1.5);
+
+} */
+
+figure {
+  /* width: 600px; */
+  background-repeat: no-repeat;
+}
+
+figure:hover img {
+  opacity: 0;
+  display: block;
+  width: 100%;
+  pointer-events: none;
+
+}
+
+@media (min-width: 950px){
+  .image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right {
+    margin: 0 0px;
+    margin-right: 10px;
+  }
+}
+
+/* @media () */

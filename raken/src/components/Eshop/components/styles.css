@@ -1,0 +1,252 @@
+
+
+.body-eshop{
+    margin-top: 5rem;
+    min-height: 44rem;
+}
+
+.body-eshop > .limiter{
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.img-div{
+    /* height: 500px; */
+     max-width: 352px;
+    display: flex;
+flex-direction: column;
+}
+
+.img-div-a{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button-see-product-div{
+    z-index: 99999;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: .185em;
+    -webkit-box-align: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.button-see-product:hover {
+    background: white;
+    color:black
+}
+
+
+.animate-button{
+    background: rgba(0,0,0,.9);
+    padding: 8px 15px;
+    font-size: 13px;
+    z-index: 999;
+    text-transform: uppercase;
+    transition: all .8s ease;
+    transform: translate(0px, -85px);
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
+@keyframes animate-button{
+    from{opacity: 0; display: none;}
+    to{opacity: 1;  display: flex;}
+}
+
+.button-see-product{
+    background: rgba(0,0,0,.9);
+    padding: 8px 15px;
+    font-size: 13px;
+    z-index: 999;
+    cursor: pointer;
+    text-transform: uppercase;
+    opacity: 0;
+
+    position: absolute;
+
+}
+
+
+
+.body-eshop .card-products .card-product .button-see-product-div a{
+    text-decoration: none;
+    cursor: pointer;
+    
+    color:white;
+    text-align: center;
+    transition: all .3s ease;
+   
+    z-index: 1;
+
+}
+
+.card-products .img-card-im2, .card-products .img-card-im1{
+    max-height: 31rem;
+    top: 0;
+    min-height: 12rem;
+    left: 0;
+    /* width: 20rem; */
+    object-fit: cover;
+}
+
+.card-product{
+     /* padding: 12px 12px 12px 12px; */
+     max-height: 35rem;
+     margin-top: 2rem;
+     justify-content: center;
+     display: flex;
+    
+}
+
+.card-products{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-gap: 4vw;
+    grid-template-columns: repeat(auto-fill, 352px);
+    grid-row-gap: 0;
+    row-gap: 0;
+    grid-auto-flow: row dense;
+}
+
+@media screen and (max-width:605px){
+    .animate-button {
+        display: none  !important;
+    }
+}
+
+@media screen and (max-width:730px){
+    /* .card-products{
+        grid-template-columns: repeat(2, 352px);
+    } */
+
+    .img-card-im1{
+        /* width: 12vw;
+        height: 23vw; */
+    }
+   
+ 
+
+
+    
+    .img-card-im2{
+        /* width: 12vw;
+        height: 23vw; */
+        
+    }
+    .card-product{
+         padding: 12px 12px 12px 12px; 
+        height: auto;
+        margin-top: 2rem;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card-products{
+        grid-template-columns: repeat(auto-fill, 318px);
+        grid-row-gap: 0;
+        grid-gap: 2.2vw;
+        grid-template-rows: repeat(3, minmax(75px, auto));
+        row-gap: 0;
+    }
+} 
+
+
+
+@media screen and (max-width:320px){
+    .card-products{
+        grid-template-columns: repeat(auto-fill, 241px) ;
+       
+    }
+}
+
+.body-eshop .card-products .card-product .button-see-product-div a:hover {
+    transition: all .8s ease;
+    background: white;
+    color:black
+    
+}
+.img-card-im1{
+    /* width: 352px;
+
+    height:440px; */
+    width: 100%;
+    transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    top: 0;
+    left: 0;
+}
+
+.img-card-im2{
+    width: 100%;
+    /* max-width: 352px; */
+    /* min-width: 223px; */
+    height: 100%;
+
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    
+}
+
+.img-card-im2:hover {
+    opacity: 1;
+}
+
+.img-div-a img{
+    pointer-events: auto;
+    
+}
+
+.title-card{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   padding: 10px 0px 0px 0px;
+   text-align: center;
+}
+
+.title-card-text{
+    font-size: 17px;
+  
+    text-align: center;
+    
+}
+
+.loading-spinner{
+        margin: 12rem auto;
+}
+
+.loading-spinner-content{
+    align-self: center;
+    margin: 0 auto;
+}
+
+.price-text{
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+
+.ttc-style{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins Medium', sans-serif;
+    margin-top: 0;
+}

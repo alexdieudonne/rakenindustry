@@ -1,0 +1,107 @@
+.cid-qyYIznwXhp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+
+/* .col-md-4{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+
+.container-e{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.footer-fixed{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.cid-qyYIznwXhp .mbr-section-title {
+    text-align: left;
+}
+
+.cid-qyYIznwXhp .mbr-list, .cid-qyYIznwXhp .social-media UL {
+    text-align: left;
+}
+
+.display-4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    word-break: break-word;
+    font-weight: 300;
+}
+
+.cid-qyYIznwXhp .mbr-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cid-qyYIznwXhp ul {
+    list-style: none;
+}
+.cid-qyYIznwXhp .card-support {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.text-secondary {
+    color: grey !important;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.icon-transition{
+text-decoration: none;
+color: grey;
+padding: 8px;
+width: 11px;
+}
+
+.icons-social{
+    display: flex;
+}
+
+.card-payement{
+    padding: 8px;
+    width: 4.5rem;
+
+}
+
+.cid-qyYIznwXhp .mbr-list ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+ 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

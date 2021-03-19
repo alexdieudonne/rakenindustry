@@ -1,0 +1,201 @@
+.bodyclass{
+    display:flex;
+    
+  }
+
+  /* acceuil display timer */
+  .acceuil{
+    opacity: 0;
+    animation: acceuil 2s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 4s;
+  }
+  
+  .doors{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .doors h1{
+    position: absolute;
+  }
+  
+  .porte_droite_not_displayed{
+    display: none;
+  }
+  
+  .porte_droite_displayed{
+    background-color: #080808;
+    width:50%;
+    height:100%;
+    position: absolute;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    animation: porte_droite 3s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-iteration-count: 1
+  }
+  
+  .porte_gauche_not_displayed{
+    display: none;
+  }
+  
+  .porte_gauche_displayed{
+    background-color: #080808;
+    width:50%;
+    height:100%;
+    position: absolute;
+    right:0;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+    animation: porte_gauche 3s ease-out;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  .logo_style{
+    /* border-style: solid; */
+    justify-content: center;
+    align-content: center;
+   
+    width: 89%;
+    
+  }
+  .border{
+    border-style: solid;
+    border-color: #0d0d0d;
+   
+    position: absolute;
+    height: 97.6%;
+    width: 95%;
+    
+    z-index: 9999;
+    border-radius: 12px;
+  
+   /* padding: 50rem 0% 100% 0%; */
+   
+  }
+  
+  .border_gauche{
+    border-style: solid;
+    border-color: #0d0d0d;
+    /* align-self: center; */
+    position: absolute;
+    height: 97.6%;
+    width: 95%;
+    /* justify-content: center; */
+    border-radius: 12px;
+    z-index: 1;
+  
+   /* padding: 50rem 0% 100% 0%; */
+   
+  }
+  
+  .raken_text{
+    font-size: 8vw;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-weight: 700;
+    z-index: 99999;
+    color:#707070
+  }
+  
+  .industry_text{
+    font-size: 6vw;
+    margin-left: 4vw;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-weight: 700;
+    z-index: 99999;
+    color:#707070
+  }
+  
+  .half_circle_1{
+    height: 18vw;
+    background-color: #030303;
+    border-bottom-left-radius: 9vw;
+    border-top-left-radius: 9vw;
+    /* box-sizing: border-box; */
+    z-index: 9999;
+    width: 9vw;
+    margin-right: 2.1%;
+    right: 0;
+    position: absolute;
+    border: 2px solid #0d0d0d;
+  }
+  
+  .half_circle_2{
+    height: 18vw;
+    background-color: #030303;
+    border-bottom-right-radius: 9vw;
+    border-top-right-radius: 9vw;
+    /* box-sizing: border-box; */
+    z-index: 9999;
+    width: 9vw;
+    margin-left: 2.1%;
+    left: 0;
+    border: 2px solid #0d0d0d;
+    position: absolute;
+  }
+  
+  /* animation door */
+  
+  @keyframes porte_droite {
+    from {left:0}
+    to {left:-50%}
+    
+  }
+  
+  @keyframes porte_gauche {
+    from {right:0}
+    to {right:-50%}
+  }
+
+  @keyframes acceuil { 
+    0% { opacity: 0}
+    100% { opacity: 1}
+  }
+  
+  /* logo */
+  
+  .logo{
+    width: 100vw;
+    height: 100vh;
+      
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+        
+    margin: auto;
+    -webkit-animation: logo 3.5s both;
+    -webkit-animation-fill-mode: forwards;
+  
+    -webkit-animation-delay: .2s;
+  }
+  
+  
+  
+  .logo_img{
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  /* animation logo */
+  
+  @keyframes logo { 
+    0% { opacity: 1; -webkit-transform: scale(1);}
+    75% {opacity: 0.9; -webkit-transform: scale(1.9);}
+    100% { opacity: 0;-webkit-transform: scale(1.9); visibility: hidden;}
+  }
